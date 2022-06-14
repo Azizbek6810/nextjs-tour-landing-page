@@ -1,0 +1,50 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+.carousel-indicators{
+  position: absolute;
+  width: 200px;
+  left: auto!important;
+  right: 5%!important;
+  margin: 0!important;
+  bottom: 40vh!important;
+  z-index: 2!important;
+  transform: rotate(90deg);
+
+}
+.carousel-indicators button{
+  width: 15px!important;
+  height: 15px!important;
+  border-radius: 50%!important;
+  margin: 10px!important;
+}
+.carousel-indicators .active{
+  transform: scale(1.2);
+}
+.slick-arrow{
+  background: rgba(0, 197, 255, 0.85) !important;
+  border-radius: 50%!important;
+  cursor: pointer!important;
+}
+.card{
+  border: 1px solid transparent !important;
+  border-radius: 20px!important;
+  transition: .5s all linear;
+}
+.card:hover{
+  box-shadow: 0 12px 31px rgba(18, 19, 61, 0.12)!important;
+  cursor: pointer!important;
+}
